@@ -56,6 +56,7 @@ void solve() {
   graph G(n);
   edge_adder adder(G);  
   auto c_map = boost::get(boost::edge_capacity, G);
+  auto r_map = boost::get(boost::edge_reverse, G);
   auto rc_map = boost::get(boost::edge_residual_capacity, G);
   
   int sink_node = n-1;
