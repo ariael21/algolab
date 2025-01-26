@@ -10,7 +10,7 @@
 | 2 | The Great Game (TBA)| Defensive Line (TBA) | [Beach Bars ](/week_02/beach_bar/) | [Burning Coins](/week_02/burning_coins/) | Deck of Cards (TBA) |
 | 3 | [First Steps With BGL](/week_03/first_steps_with_BGL/) | [Buddy Selection](/week_03/buddy_selection/) | [Ant Challenge](/week_03/ant_challenge) | [Important Bridges](/week_03/important_bridges) | [James Bond's Sovereigns](/week_03/james_bond/) |
 | 4 | [Hit](/week_04/hit) | [First Hit](/week_04/first_hit) | [Antenna](/week_04/antenna/) | Hiking Maps (TBA) | Iron Islands (TBA) |
-| 5 | Moving Books (TBA) | [Asterix the Gaul](/week_05/asterix-the-gaul/) | Severus Snape (TBA) | [Boats](/week_05/boats) | Tracking (TBA) |
+| 5 | [Moving Books](/week_05/moving-books/) | [Asterix the Gaul](/week_05/asterix-the-gaul/) | Severus Snape (TBA) | [Boats](/week_05/boats) | Tracking (TBA) |
 | 6 | [Tiles](/week_06/tiles/) | [Coin Tossing Tournament](/week_06/coin_tossing_tournament/) | [Knights](/week_06/knights/) | [Kingdom Defense](/week_06/kingdom_defense/) | Motorcycles (TBA) |
 | 7 | [Bistro](/week_07/bistro) | [H1N1](/week_07/h1n1/) | [Germs](/week_07/germs) | [Clues](/week_07/clues) | Octopussy (TBA) |
 | 8 | [Maximize it!](/week_08/maximize_it/) | [Diet](/week_08/diet) | [Inball](/week_08/inball/) | Casterly Rock (TBA) | [Attack on King's Landing](/week_08/attack-on-kings-landing/)|
