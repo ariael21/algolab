@@ -1,7 +1,8 @@
 ### my algolab solutions
 
-**note**: some problems are not solved 100% or documented
+[Exam Notes](/exam-notes.md)
 
+**note**: some problems are not solved 100% or documented
 
 | Week | Exercise 1 | Exercise 2 | Exercise 3 | Exercise 4 | Problem of the Week |
 |------|------------|------------|------------|------------|---------------------|
@@ -18,6 +19,4 @@
 | 11 | [Worldcup](/week_11/worldcup/)| [Lernaean Hydra](/week_11/lernaean-hydra/)| [Sith](/week_11/sith) | [Asterix in Switzerland](/week_11/asterix-in-switzerland/) | [Ceryneian Hind](/week_11/ceryneian-hind/) |
 | 12 | [Alastor Moody](/week_12/moody/) | [Return of the Jedi](/week_12/return-of-the-jedi/) | Rapunzel (TBA)| [Nemean Lion](/week_12/nemean-lion/)| Pied Piper (TBA) |
 | 13 | [Car Sharing](/week_13/carsharing/) | [Asterix and the Chariot Race](/week_13/asterix-and-the-chariot-race/) | [Suez](/week_13/suez/)| Fighting Pits of Meereen (TBA)| Schneewittchen (TBA)
-| 14 | | | | | [Ludo Begman](/week_14/ludo-bagman/)
-
-[Exam Notes](/exam-notes.md)
+| 14 | | | | | [Ludo Bagman](/week_14/ludo-bagman/)
