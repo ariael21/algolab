@@ -2,6 +2,8 @@
 
 ### Solution Approach
 
+Only 75%!
+
 If we only have motorbikes which go upwards (no negative slopes):
 
 - sort the motorbikes by start position along the y-axis
