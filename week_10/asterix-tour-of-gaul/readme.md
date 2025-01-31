@@ -26,6 +26,7 @@ For all capacities `c_i` (connect node `i` to `i+1`)
 For all food items `a b d`:
 - add `edge(a, b, 1, (b - a) * 100 - d)`
 
+And lastly two edges:
 - add `edge(source, 0, c_0, 0)`
 - add `edge(n-1, sink, c_{n-2}, 0)`
 
