@@ -44,34 +44,30 @@ void solve() {
 
   for (int i = 1; i < n; i++) {
     int curr_id = bombs[i].second;
-    
-    if (explosion_times[prev_id] != explosion_times[curr_id]) {
-      // neutralize bombs with same detonation time in the same batch
+
+    // neutralize bombs in queue
+    while (!queue.empty()) {
+      int id = queue.front(); queue.pop();
       
-      // neutralize bombs in queue
-      while (!queue.empty()) {
-        int id = queue.front(); queue.pop();
+      if (active[id]) {
+        // neutralize
+        active[id] = false;
+        time_step++;
         
-        if (active[id]) {
-          // neutralize
-          active[id] = false;
-          time_step++;
-          
-          if (id < cutoff_index) {
-            // add two bombs to queue -> these also need to be neturalized
-            // in order to neutralize the current one
-            queue.push(2*id + 1);
-            queue.push(2*id + 2);
-          }
+        if (id < cutoff_index) {
+          // add two bombs to queue -> these also need to be neturalized
+          // in order to neutralize the current one
+          queue.push(2*id + 1);
+          queue.push(2*id + 2);
         }
       }
-      
-      // only check this time
-      // if time is higher than explosion time of original bomb -> fail
-      if (time_step > explosion_times[prev_id]) {
-        possible = false;
-        break;
-      }
+    }
+    
+    // only check this time
+    // if time is higher than explosion time of original bomb -> fail
+    if (time_step > explosion_times[prev_id]) {
+      possible = false;
+      break;
     }
     
     // add next bomb to queue
