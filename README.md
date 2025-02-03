@@ -13,7 +13,7 @@
 | 5 | [Moving Books](/week_05/moving-books/) | [Asterix the Gaul](/week_05/asterix-the-gaul/) | Severus Snape (TBA) | [Boats](/week_05/boats) | [Tracking](/week_05/tracking/) |
 | 6 | [Tiles](/week_06/tiles/) | [Coin Tossing Tournament](/week_06/coin_tossing_tournament/) | [Knights](/week_06/knights/) | [Kingdom Defense](/week_06/kingdom_defense/) | [Motorcycles (75%)](/week_06/motorcycles/) |
 | 7 | [Bistro](/week_07/bistro) | [H1N1](/week_07/h1n1/) | [Germs](/week_07/germs) | [Clues](/week_07/clues) | [Octopussy](/week_07/octopussy/) |
-| 8 | [Maximize it!](/week_08/maximize_it/) | [Diet](/week_08/diet) | [Inball](/week_08/inball/) | Casterly Rock (TBA) | [Attack on King's Landing](/week_08/attack-on-kings-landing/)|
+| 8 | [Maximize it!](/week_08/maximize_it/) | [Diet](/week_08/diet) | [Inball](/week_08/inball/) | [Casterly Rock](/week_08/casterly-rock/) | [Attack on King's Landing](/week_08/attack-on-kings-landing/)|
 | 9| [Placing Knights](/week_09/placing-knights/) | [Real Estate Market](/week_09/real_estate_market/) | [Canteen](/week_09/canteen) | [Algocoon](/week_09/algocoon-group/) | [Idefix](/week_09/idefix/) |
 | 10 | [Asterix and the Tour of Gaul](/week_10/asterix-tour-of-gaul/) | Rubeus Hagrid (TBA) | [San Francisco](/week_10/san_francisco/) | The Hand’s Tourney (TBA) | Hermione Granger (TBA)  |
 | 11 | [Worldcup](/week_11/worldcup/)| [Lernaean Hydra](/week_11/lernaean-hydra/)| [Sith](/week_11/sith) | [Asterix in Switzerland](/week_11/asterix-in-switzerland/) | [Ceryneian Hind](/week_11/ceryneian-hind/) |
