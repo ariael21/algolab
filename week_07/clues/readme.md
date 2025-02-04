@@ -23,7 +23,7 @@ A more optimized method involves the following steps:
 3. If this fails, the graph is **not bipartite**, and we can stop here.
 4. If successful, we split the vertices into two groups based on their color.
 5. **Create two separate Delaunay Triangulations** (one for each color group).
-6. **Check if both triangulations are bipartite** (again, only considering edges within the communication range). If both are bipartite, then the stations can be configured using two frequencies.
+6. Check if any nodes in those triangulations are too close to anther one => then our original graph cannot be bipartite
 
 
 ### Can Holmes and Watson communicate?
