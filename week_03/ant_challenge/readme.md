@@ -12,3 +12,16 @@
 1. **Compute the MST for each insect type** using **Kruskal’s algorithm**.
 2. **Merge the MSTs** by selecting the **minimum-cost edge** to connect separate components.
 3. **Find the shortest path** between nodes `a` and `b` using **Dijkstra’s algorithm**.
+
+### Notes
+
+To check if an edge is in a graph: `!boost::edge(u, v, tree).second`
+
+To get the reference to an edge to update weightmap:
+
+```c++
+ Edge old_edge = boost::edge(u, v, tree).first;
+        
+// add smallest edge
+weightmap[old_edge] = std::min(weightmap[old_edge], weightmaps[i][e]);
+```
