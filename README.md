@@ -1,4 +1,4 @@
-### my algolab solutions
+### my algolab solutions (2024)
 
 [Exam Notes](/exam-notes.md)
 
@@ -15,7 +15,7 @@
 | 7 | [Bistro](/week_07/bistro) | [H1N1](/week_07/h1n1/) | [Germs](/week_07/germs) | [Clues](/week_07/clues) | [Octopussy](/week_07/octopussy/) |
 | 8 | [Maximize it!](/week_08/maximize_it/) | [Diet](/week_08/diet) | [Inball](/week_08/inball/) | [Casterly Rock](/week_08/casterly-rock/) | [Attack on King's Landing](/week_08/attack-on-kings-landing/)|
 | 9| [Placing Knights](/week_09/placing-knights/) | [Real Estate Market](/week_09/real_estate_market/) | [Canteen](/week_09/canteen) | [Algocoon](/week_09/algocoon-group/) | [Idefix](/week_09/idefix/) |
-| 10 | [Asterix and the Tour of Gaul](/week_10/asterix-tour-of-gaul/) | Rubeus Hagrid (TBA) | [San Francisco](/week_10/san_francisco/) | The Hand’s Tourney (TBA) | Hermione Granger (TBA)  |
+| 10 | [Asterix and the Tour of Gaul](/week_10/asterix-tour-of-gaul/) | [Rubeus Hagrid](/week_10/rubeus-hagrid/) | [San Francisco](/week_10/san_francisco/) | [The Hand’s Tourney](/week_10/hands-tourney/) | Hermione Granger (TBA)  |
 | 11 | [Worldcup](/week_11/worldcup/)| [Lernaean Hydra](/week_11/lernaean-hydra/)| [Sith](/week_11/sith) | [Asterix in Switzerland](/week_11/asterix-in-switzerland/) | [Ceryneian Hind](/week_11/ceryneian-hind/) |
 | 12 | [Alastor Moody](/week_12/moody/) | [Return of the Jedi](/week_12/return-of-the-jedi/) | [Rapunzel](/week_12/rapunzel/)| [Nemean Lion](/week_12/nemean-lion/)| Pied Piper (TBA) |
 | 13 | [Car Sharing](/week_13/carsharing/) | [Asterix and the Chariot Race](/week_13/asterix-and-the-chariot-race/) | [Suez](/week_13/suez/)| Fighting Pits of Meereen (TBA)| Schneewittchen (TBA)
