@@ -1,5 +1,7 @@
 ## Sith
-Note: only 75% passing (!) I couldn't / didn't have time to find out what the issue is... but its pretty fast, i guess?
+Note: only 75% passing (!) I couldn't / didn't have time to find out what the issue is... but its pretty fast, i guess? 
+
+Note: the issue was `int biggest_component = 0;` instead of `int biggest_component = 1;`... Wow, I wasted several hours of my life for that bug.
 
 ### Approach
 
