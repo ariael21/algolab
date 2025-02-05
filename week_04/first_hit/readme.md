@@ -12,3 +12,11 @@
 2. **Convert the ray into a segment** from the origin to this intersection.
 3. **Iterate through all segments**, updating the segment **whenever a closer intersection is found**.
 4. **Output the endpoint** of the final ray segment.
+
+### Note
+
+To avoid worse time runtime, we need to shuffle the segments:
+
+```c++
+std::random_shuffle(segments.begin(), segments.end());
+```

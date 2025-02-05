@@ -14,7 +14,7 @@ Speedup Note: Do not recompute the whole triangulation but add one point at a ti
 
 ```
 Test set 1 (25 pts / 2 s) : Correct answer      (0.015s)
-Test set 2 (25 pts / 2 s) : Correct answer      (0.039s)
+Test set 2 (25 pts / 2 s) : Correct answer      (0.038s)
 Test set 3 (25 pts / 2 s) : Correct answer      (0.124s)
-Test set 4 (25 pts / 2 s) : Wrong answer        (0.287s)
+Test set 4 (25 pts / 2 s) : Correct answer      (0.286s)
 ```
