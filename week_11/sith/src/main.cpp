@@ -58,7 +58,7 @@ void solve() {
   std::vector<int> component_size(n, 1);
   boost::disjoint_sets_with_storage<> uf(n);
   
-  int biggest_component = 0;
+  int biggest_component = 1;
   
   for (auto e = t.finite_edges_begin(); e != t.finite_edges_end(); ++e) {
     int i1 = e->first->vertex((e->second+1)%3)->info();
