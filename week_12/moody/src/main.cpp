@@ -1,4 +1,4 @@
-///
+///1
 #include <iostream>
 #include <algorithm>
 
@@ -73,46 +73,40 @@ void solve() {
   long prev_flow_cost = flow_cost_1;
   long prev_inflow = inflow;
   
-  while (true) {
-    // check previous result
-    bool previously_increased = false;
-    if (prev_flow_cost == flow_cost_1 * prev_inflow) {
-      // increase
-      previously_increased = true;
-      inflow = std::min(prev_inflow + step_size, max);
-    } else {
-      // decrease
-      inflow = std::max(prev_inflow - step_size, (long) 0);
-    }
+  // binary search, to find biggest value for which (flow_cost_i == flow_cost_1 * mid) holds
+  long left = 1;
+  long right = max;
+  long mid = 0;
+  
+  while (left < right) {
+    mid = left + (right - left) / 2;
     
-    c_map[valve] = inflow; 
+    c_map[valve] = mid;
     
     boost::successive_shortest_path_nonnegative_weights(G, v_source, p);
     flow_cost_i = boost::find_flow_cost(G);
     
-    bool increase_next = (flow_cost_i == flow_cost_1 * inflow);
-    
-    // termination checks
-    if (step_size == 1) {
-      if (previously_increased && !increase_next) {
-          inflow = inflow-1; 
-          break;
-      }
-      
-      if (inflow == max) {
-        break;
-      }
-      
-      if (!previously_increased && increase_next) {
-        break;
-      }
-    }
-    
-    step_size = std::max(step_size / 2, (long) 1);
     prev_flow_cost = flow_cost_i;
-    prev_inflow = inflow;
+
+    if (flow_cost_i == flow_cost_1 * mid) {
+      // still using the cheapest path
+      left = mid + 1;
+    } else {
+      right = mid;
+    }
   }
   
+  c_map[valve] = left;
+  boost::successive_shortest_path_nonnegative_weights(G, v_source, p);
+  flow_cost_i = boost::find_flow_cost(G);
+  
+  inflow = left;
+  
+  if (flow_cost_i != flow_cost_1 * left) {
+    // bigger now -> must decrease
+    inflow -= 1;
+  }
+
   std::cout << inflow << std::endl;
 }
 
