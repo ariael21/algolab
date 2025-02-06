@@ -17,6 +17,6 @@
 | 9| [Placing Knights](/week_09/placing-knights/) | [Real Estate Market](/week_09/real_estate_market/) | [Canteen](/week_09/canteen) | [Algocoon](/week_09/algocoon-group/) | [Idefix](/week_09/idefix/) |
 | 10 | [Asterix and the Tour of Gaul](/week_10/asterix-tour-of-gaul/) | [Rubeus Hagrid](/week_10/rubeus-hagrid/) | [San Francisco](/week_10/san-francisco/) | [The Hand’s Tourney](/week_10/hands-tourney/) | Hermione Granger (TBA)  |
 | 11 | [Worldcup](/week_11/worldcup/)| [Lernaean Hydra](/week_11/lernaean-hydra/)| [Sith](/week_11/sith) | [Asterix in Switzerland](/week_11/asterix-in-switzerland/) | [Ceryneian Hind](/week_11/ceryneian-hind/) |
-| 12 | [Alastor Moody](/week_12/moody/) | [Return of the Jedi](/week_12/return-of-the-jedi/) | [Rapunzel](/week_12/rapunzel/)| [Nemean Lion](/week_12/nemean-lion/)| Pied Piper (TBA) |
-| 13 | [Car Sharing](/week_13/carsharing/) | [Asterix and the Chariot Race](/week_13/asterix-and-the-chariot-race/) | [Suez](/week_13/suez/)| Fighting Pits of Meereen (TBA)| Schneewittchen (TBA)
+| 12 | [Alastor Moody](/week_12/moody/) | [Return of the Jedi](/week_12/return-of-the-jedi/) | [Rapunzel](/week_12/rapunzel/)| [Nemean Lion](/week_12/nemean-lion/)| [Pied Piper (Approach only)](/week_12/pied-piper/) |
+| 13 | [Car Sharing](/week_13/carsharing/) | [Asterix and the Chariot Race](/week_13/asterix-and-the-chariot-race/) | [Suez](/week_13/suez/)| Fighting Pits of Meereen (TBA)| [Schneewittchen (Approach only)](/week_13/schneewittchen/)
 | 14 | | | | | [Ludo Bagman](/week_14/ludo-bagman/)
