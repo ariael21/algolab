@@ -18,6 +18,43 @@ Perform DFS from node `0`:
 - Store the starting locations in a set: `typedef std::set<int> ISet;`
 
 
+### Useful Stuff
+
+Access max / min elements from `std::deque` stack:
+
+```c++
+int min = recent_h.begin()->first;
+int max = recent_h.rbegin()->first;
+```
+
+Accessing the `m`-th element in the stack:
+
+```c++
+auto stack_start = dfs_stack.begin();
+int element = *(stack_start + m-1);
+```
+
+Map that counts the occurence of brightnesses and removes the entry if the brightness is counted 0 times:
+
+```c++
+void remove(IIMap& map, int brightness) {
+  map[brightness]--;
+
+  if (map[brightness] == 0) {
+    map.erase(brightness);
+  }
+}
+
+void add(IIMap& map, int brightness) {
+  if (map.find(brightness) != map.end()) {
+    map[brightness]++;
+  } else {
+    map.insert(std::make_pair(brightness, 1));
+  }
+}
+```
+
+
 ### Runtime
 
 ```

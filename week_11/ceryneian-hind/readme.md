@@ -15,6 +15,6 @@ We create a flow graph:
 Now, we let it flow... what happens?
 
 - Any semi-dead ends with a *negative* convenience score will have the **same in-flow as out-flow**.
-- Any semi-dead ends with a *positive* convenience score will have **more in-flow** than out-flow.
+- Any semi-dead ends with a *positive* convenience score will have **more in-flow** than out-flow. (The flow graph "overflows" with flow, as we have more positive convenience score => more in-flow than what can flow out)
 
 Thus, the maximum semi-dead end convenience score is `in-flow - actual_flow`. If this value is `> 0`, we can capture the beast!

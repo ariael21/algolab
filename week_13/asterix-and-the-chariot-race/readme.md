@@ -13,7 +13,7 @@ Actually... this is just wrong. Okay, let's try again.
 
 ### Solution for 0% (Due to Time Limit)
 
-See `slow.cpp` for an alternative solution, which is too slow. In the worst case, there are two recursive calls to all children, making it way too slow. We need to reduce this to only one recursive call to the children.
+See `slow.cpp` for an alternative solution, which is too slow. 
 
 ### Solution for 100% (Finally!)
 
@@ -21,7 +21,7 @@ The hard part is distinguishing the three cases. For this, we define three state
 
 1. **`taken`**: We take this node, *ensuring that all its children are covered.*
 2. **`covered`**: This node is covered if *at least one of its children is taken*.
-3. **`not covered`**: This node is neither taken nor are any of its children taken. (You might wonder why this case is relevant—it becomes important because this node can *become* covered if its parent is taken. Thus we still need this information.)
+3. **`not covered`**: None of its children taken, thus the current node is not covered by other nodes. But the node *might* be taken. (You might wonder why this case is relevant—it becomes important because this node can *become* covered if its parent is taken. Thus we still need this information.)
 
 Finally, we traverse the tree from the leaf nodes to the root (`node 0`) while calculating these three values for each subtree. At the root, we simply choose the minimal cost from the `covered` state.
 
