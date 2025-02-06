@@ -32,3 +32,23 @@ Calculating the flow cost for every `i = 1, ...` is **very slow**. To speed this
 - Use **binary search** over the values of `i` up to `max_flow`.  
 - Here, `max_flow` represents the maximum amount of flow that can pass from `s` to `p`.
 
+
+### Easy Binary Search Setup
+
+Super nice binary search setup from [here](https://github.com/lucidBrot/algolab-tutorial). thx <3
+
+```c++
+while (left < right) {
+    mid = left + (right - left)/2; // avoid overflows
+
+    value = compute(mid);
+    
+    if (value < SEARCHTERM){ 
+    	left = mid + 1;
+    } else {
+        right = mid;
+    }
+}
+
+value = compute(left);
+```
