@@ -31,3 +31,6 @@ And lastly two edges:
 - add `edge(n-1, sink, c_{n-2}, 0)`
 
 => result = (c_0 + ... c_n-2) * 100 - cost
+
+![Graph Example](/week_10/asterix-tour-of-gaul/1.jpeg)
+![Graph Example](/week_10/asterix-tour-of-gaul/2.jpeg)

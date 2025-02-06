@@ -36,3 +36,5 @@ For nodes within the same station, there is no profit involved. For example, if 
 
 While the modifications ensure strictly non-negative weights, they inflate the cost. To calculate the actual cost, we use the formula:  
 `-(scaled_cost - (flow * 100000 * 100))`.
+
+![Graph Example](/week_13/carsharing/1.jpeg)

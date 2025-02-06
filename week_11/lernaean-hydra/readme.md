@@ -37,4 +37,35 @@ Using these ideas, we can create a graph with `m+2` nodes and get the minimum cu
 
 - **Validation**:
   To check if two cutting patterns form a valid connection:
-  - TODO
+
+  We need to check if we still only cut valid heads, even if we have overlapping patterns:
+
+```cpp
+bool allow_connection(std::vector<std::vector<int>>& patterns, int index, int overlap, int k) {
+    int group = patterns[index][k - 1];
+
+    // Cutting Rule: We cannot cut a head that is already definitively cut off
+    // (using the designated cutting pattern).
+
+    for (int i = 0; i < k; i++) {
+        // Check if we are allowed to cut x_i at position i in the pattern.
+        int x_i = patterns[index][i];
+
+        if (i < overlap) {
+            // In the overlap (previous group)
+            // => All heads smaller than 'group - overlap + i' msut already be cut.
+            if (x_i < group - (overlap - i)) {
+                return false;
+            }
+        } else {
+            // In the current group (not in overlap)
+            // => All heads smaller than 'group' must already be cut.
+            if (x_i < group) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+```

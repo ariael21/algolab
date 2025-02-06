@@ -54,14 +54,21 @@ int get_overlap(std::vector<std::vector<int>>& patterns, int first, int second, 
 bool allow_connection(std::vector<std::vector<int>>& patterns, int index, int overlap, int k) {
   int group = patterns[index][k-1];
   
+  // Cutting Rule: We cannot cut a head, which is already definitly cut off (using the designated cutting pattern) 
+
   for (int i = 0; i < k; i++) {
+    // check if we are allowed to cut x_i at the position i in the pattern
     int x_i = patterns[index][i];
     
     if (i < overlap) {
+      // in overlap (in previous group)
+      // => the head cannot be smaller than 'group - overlap + i'
       if (x_i < group - (overlap - i)) {
         return false;
       }
     } else {
+      // in current group (not in overlap)
+      // => all heads smaller than 'group' must already be cut
       if (x_i < group) {
         return false;
       }

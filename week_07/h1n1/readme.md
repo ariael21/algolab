@@ -18,3 +18,35 @@ To solve this, we construct a **Delaunay Triangulation** using the coordinates o
 3. For each healthy person, check whether they can escape with their given `d`:
    - Ensure that the closest vertex is sufficiently far away.  
    - Verify that the healthy person lies in a face where `d` is less than the corresponding `max_face_d`.
+
+
+### Useful Stuff
+
+Use a priority queue so that we prioritize faces that allow larger discs to escape first. This ensures that for each face, we obtain the largest possible escaping disc:
+
+```cpp
+std::priority_queue<std::pair<long, Face_handle>> queue;
+```
+
+For a face: get the neighboring face and the edge (+ vertex endpoints) between the faces:
+
+```c++
+Face_handle face = ...;
+
+for (int i = 0; i < 3; i++) {
+   // look at all neighbouring faces
+   int ccw = Triangulation::ccw(i);
+   int cw = Triangulation::cw(i);
+   
+   Face_handle neighbour = face->neighbor(i);
+
+   // end vertices of the edge connecting the current face to the neighbour face
+   auto v1 = face->vertex(ccw);
+   auto v2 = face->vertex(cw);
+   
+   // do something ...
+
+   // e.g. get the squared length of the edge between the faces
+   long squared_distance = CGAL::squared_distance(v1->point(), v2->point());
+}
+```

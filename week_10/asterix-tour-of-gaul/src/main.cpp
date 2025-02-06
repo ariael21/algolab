@@ -28,7 +28,7 @@ class edge_adder {
  graph &G;
 
  public:
-  explicit edge_adder(graph &G) : G(G) {}
+  explicit edge_adder(graph &G) : G(G) {}familys_size_k
   void add_edge(int from, int to, long capacity, long cost) {
     auto c_map = boost::get(boost::edge_capacity, G);
     auto r_map = boost::get(boost::edge_reverse, G);

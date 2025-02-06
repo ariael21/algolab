@@ -75,7 +75,7 @@ void solve() {
     // store the vertex index for each state
     state_vertices[state_vertex] = state_vertex; // store state vertices
   }
-  
+  state_vertex
   std::vector<int> property_vertices(M, -1);
   
   for (int i = 0; i < M; i++) {
