@@ -58,6 +58,13 @@ Some strategies that may help or are worth trying:
 
 ---
 
+### Graphs
+
+- Graph Stacking -> the levels represent a certain variable
+- Node Duplication to represecent a certain property
+
+---
+
 ### Flow
 
 **Techniques**:
